@@ -1,6 +1,8 @@
 import "./HealthBar.scss";
 
 const HealthBar = ({ initial, health, name, isRTL }) => {
+
+
   return (
     <div className="bar-wrapper" style={{ direction: isRTL ? "rtl" : "ltr" }}>
       <p className="name">{name}</p>

@@ -6,7 +6,6 @@ import { useFight } from "./hooks";
 const Arena = () => {
   const { fighterOneDetails, fighterTwoDetails, winner } = useFight();
 
-
   return (
     <div className="arena">
       <Modal isShow={!!winner} name={winner?.name} url={winner?.avatar} />
