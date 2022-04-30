@@ -38,8 +38,6 @@ const Board = () => {
         })
       }
 
-      console.log(response.data);
-
     });
 
     setSelectedPlayer(player);
